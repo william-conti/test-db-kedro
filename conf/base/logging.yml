@@ -40,7 +40,7 @@ loggers:
   kedro:
     level: INFO
 
-  test_db_kedro:
+  iris:
     level: INFO
 
 root:

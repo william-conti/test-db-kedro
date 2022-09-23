@@ -1,5 +1,5 @@
-"""test-db-kedro file for ensuring the package is executable
-as `test-db-kedro` and `python -m test_db_kedro`
+"""Iris file for ensuring the package is executable
+as `iris` and `python -m iris`
 """
 import importlib
 from pathlib import Path
@@ -20,7 +20,7 @@ def _find_run_command(package_name):
         if run:
             # use run command from installed plugin if it exists
             return run
-        # use run command from the framework project
+        # use run command from `kedro.framework.cli.project`
         from kedro.framework.cli.project import run
 
         return run

@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 entry_point = (
-    "test-db-kedro = test_db_kedro.__main__:main"
+    "iris = iris.__main__:main"
 )
 
 
@@ -17,7 +17,7 @@ with open("requirements.txt", encoding="utf-8") as f:
             requires.append(req)
 
 setup(
-    name="test_db_kedro",
+    name="iris",
     version="0.1",
     packages=find_packages(exclude=["tests"]),
     entry_points={"console_scripts": [entry_point]},
@@ -33,6 +33,7 @@ setup(
             "sphinx-autodoc-typehints==1.11.1",
             "sphinx_copybutton==0.3.1",
             "ipykernel>=5.3, <7.0",
+            "Jinja2<3.1.0",
         ]
     },
 )

@@ -1,6 +1,6 @@
 [tool.kedro]
-package_name = "test_db_kedro"
-project_name = "test-db-kedro"
+package_name = "iris"
+project_name = "Iris"
 project_version = "0.18.3"
 
 [tool.isort]
@@ -9,7 +9,7 @@ profile = "black"
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src/test_db_kedro -ra"""
+--cov src/iris -ra"""
 
 [tool.coverage.report]
 fail_under = 0

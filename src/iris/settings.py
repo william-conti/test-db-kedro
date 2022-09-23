@@ -3,7 +3,7 @@ from the Kedro defaults. For further information, including these default values
 https://kedro.readthedocs.io/en/stable/kedro_project_setup/settings.html."""
 
 # Instantiated project hooks.
-from test_db_kedro.hooks import SparkHooks
+from iris.hooks import SparkHooks
 
 HOOKS = (SparkHooks(),)
 

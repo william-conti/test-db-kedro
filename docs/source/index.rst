@@ -1,8 +1,8 @@
-.. test_db_kedro documentation master file, created by sphinx-quickstart.
+.. iris documentation master file, created by sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to project test_db_kedro's API docs!
+Welcome to project iris's API docs!
 =============================================
 
 .. toctree::

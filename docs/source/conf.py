@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 
-# test_db_kedro documentation build
+# iris documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -22,11 +21,11 @@ import re
 
 from kedro.framework.cli.utils import find_stylesheets
 
-from test_db_kedro import __version__ as release
+from iris import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "test_db_kedro"
+project = "iris"
 author = "Kedro"
 
 # The short X.Y version.
@@ -117,13 +116,10 @@ html_static_path = ["_static"]
 
 html_show_sourcelink = False
 
-# Removes, from all docs, the copyright footer.
-html_show_copyright = False
-
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "test_db_kedrodoc"
+htmlhelp_basename = "irisdoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -151,8 +147,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "test_db_kedro.tex",
-        "test_db_kedro Documentation",
+        "iris.tex",
+        "iris Documentation",
         "Kedro",
         "manual",
     )
@@ -165,8 +161,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "test_db_kedro",
-        "test_db_kedro Documentation",
+        "iris",
+        "iris Documentation",
         [author],
         1,
     )
@@ -180,12 +176,12 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "test_db_kedro",
-        "test_db_kedro Documentation",
+        "iris",
+        "iris Documentation",
         author,
-        "test_db_kedro",
-        "Project test_db_kedro codebase.",
-        "Data-Science",
+        "iris",
+        "Project iris codebase.",
+        "Nearest-Neighbour",
     )
 ]
 
